@@ -54,7 +54,7 @@ sudo systemctl disable tuned
 
 #Install JAVA
 sudo mkdir -p /usr/java
-sudo wget "http://dnacloud-d-vm01.edis.tatasteel.com/java/jdk-8u144-linux-x64.tar.gz"
+sudo wget "http://<host>/java/jdk-8u144-linux-x64.tar.gz"
 sudo tar -zxvf jdk-8u144-linux-x64.tar.gz -C /usr/java
 echo -e "\nJava unzipped and installed in /usr/java"
 sudo ln -sf /usr/java/jdk1.8.0_144 /usr/java/default
